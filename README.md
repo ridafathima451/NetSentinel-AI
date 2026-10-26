@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # NetSentinel AI — Intelligent Network Anomaly Detection and Cybersecurity Investigation Platform
 
 [![FastAPI](https://img.shields.io/badge/Backend-FastAPI-009688.svg)](https://fastapi.tiangolo.com)
@@ -227,3 +228,7 @@ npm run build
 - Support for live PCAP packet taps via eBPF on Linux kernels.
 - Deep Learning autoencoders (LSTM / Transformers) for sequential flow modeling.
 - Exporting incident alerts to standard STIX/TAXII threat intelligence formats.
+=======
+# NetSentinel-AI
+AI-powered network security platform for detecting anomalies, analyzing network traffic, investigating security incidents, and visualizing network threats using machine learning.
+>>>>>>> origin/main
