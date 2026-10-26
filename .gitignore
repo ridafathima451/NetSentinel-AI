@@ -1,0 +1,72 @@
+# NetSentinel AI - Git Ignore File
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Node & Frontend
+node_modules/
+frontend/dist/
+frontend/.vite/
+frontend/build/
+.eslintcache
+*.log
+
+# Databases & Runtime Data
+*.sqlite
+*.sqlite3
+*.db
+backend/data/*.db
+data/uploads/
+reports/*.pdf
+reports/*.csv
+artifacts/models/*.joblib
+artifacts/models/*.json
+
+# Environment variables & secrets
+.env
+.env.local
+.env.*.local
+*.key
+*.pem
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+
+# Local environment files
+frontend/.env
+backend/.env
+
+# Local datasets and generated files
+data/
+reports/
+artifacts/
+
+
+
+# Local environment files
+frontend/.env
+backend/.env
+
+# Local datasets and generated files
+data/
+reports/
+artifacts/
+
+# Temporary import-fix backup
+backend/app_backup_before_import_fix/
+
